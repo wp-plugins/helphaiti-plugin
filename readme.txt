@@ -7,7 +7,7 @@ Tested up to: 2.9.1
 Stable tag: trunk
 
 Display a candle image for remember the Haiti earthquake victims.
-Muestra la imagen de una vela en recuerdo de las víctimas del terremoto de Haití.
+Muestra la imagen de una vela en recuerdo de las víctimas del terremoto de Haiti.
 
 == Description ==
 
@@ -17,11 +17,15 @@ In my website http://www.divagando.com.es there is a "candle counter" to know ho
 The plugin is free but you need to maintain the link to my website in the candle.
 That's all.
 
-Este pugin muestra la imagen de una vela en recuerdo de las víctimas de Haití en una esquina de tú blog Wordpress.
-Tú puedes seleccionar en la configuración en cual esquina quieres mostrar la vela. La posición por defecto es inferior derecha.
+Este plugin muestra la imagen de una vela en recuerdo de las victimas de Haiti en una esquina de tu blog Wordpress.
+Tu puedes seleccionar en la configuracion en cual esquina quieres mostrar la vela. La posicion por defecto es inferior derecha.
 En mi sitio web http://www.divagando.com.es hay un "contador de velas" que muestra cuantos blogs tienen su vela encendida.
-El plugin es gratuito, pero necesitas mantener el link de mi página en la vela.
+El plugin es gratuito, pero necesitas mantener el link de mi pagina en la vela.
 Eso es todo.
+
+== Upgrade Notice ==
+
+No upgrades
 
 == Installation ==
 
@@ -31,12 +35,13 @@ Eso es todo.
 4. Done! A new menu is setted up in the admin panel, choose your desired position for the candle. The default position is right bottom.
 
 1. Sube 'helphaiti.php' a e directorio '/wp-content/plugins/'
-2. Activa el plugin en el menú 'Plugins' de tú Wordpress
-3. Ahora necesitas registrarlo, ve a 'http://www.divagando.com.es/?page_id=38' y escribe en el formulario el sitio web donde vas a mostrar la vela y pulsa ENVIAR. No es necesaria más información.
-4. Hecho! Un nuevo menú aparecerá en el panel de administración, elige la posición deseada para la vela. La posición por defecto es inferior derecha.
+2. Activa el plugin en el menu 'Plugins' de tu Wordpress
+3. Ahora necesitas registrarlo, ve a 'http://www.divagando.com.es/?page_id=38' y escribe en el formulario el sitio web donde vas a mostrar la vela y pulsa ENVIAR. No es necesaria mas informacion.
+4. Hecho! Un nuevo menu aparecera en el panel de administracion, elige la posicion deseada para la vela. La posicion por defecto es inferior derecha.
 
+== Frequently Asked Questions ==
 
-
+No FAQ
 
 
 == Screenshots ==
@@ -45,17 +50,12 @@ Eso es todo.
 Mira la parte inferior derecha de la captura de pantalla.
 
 
+== Changelog ==
+
+First version
 
 
-
-
-== Donate ==
+== Arbitrary section ==
 
 You can donate clicking in the "Donate" Paypal buttom at http://www.divagando.com.es/
-Puedes hacer tú donación pinchando en el botón "Donar" de Paypal en http://www.divagando.com.es/
-
-
-
-
-`<?php code(); // goes in backticks ?>`
-
+Puedes hacer tu donacion pinchando en el boton "Donar" de Paypal en http://www.divagando.com.es/
