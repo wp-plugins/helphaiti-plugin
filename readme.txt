@@ -28,12 +28,13 @@ Eso es todo.
 No upgrades
 
 == Installation ==
-
+ENGLISH
 1. Upload `helphaiti.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Now you need to register it, go to 'http://www.divagando.com.es/?page_id=38' and type in the form the website where you want the candle and press SUBMIT. No more info needed.
 4. Done! A new menu is setted up in the admin panel, choose your desired position for the candle. The default position is right bottom.
-
+--------------------------------------------------------
+SPANISH
 1. Sube 'helphaiti.php' a e directorio '/wp-content/plugins/'
 2. Activa el plugin en el menu 'Plugins' de tu Wordpress
 3. Ahora necesitas registrarlo, ve a 'http://www.divagando.com.es/?page_id=38' y escribe en el formulario el sitio web donde vas a mostrar la vela y pulsa ENVIAR. No es necesaria mas informacion.
