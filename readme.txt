@@ -35,7 +35,7 @@ Eso es todo.
 3. Ahora necesitas registrarlo, ve a 'http://www.divagando.com.es/?page_id=38' y escribe en el formulario el sitio web donde vas a mostrar la vela y pulsa ENVIAR. No es necesaria más información.
 4. Hecho! Un nuevo menú aparecerá en el panel de administración, elige la posición deseada para la vela. La posición por defecto es inferior derecha.
 
-== Frequently Asked Questions ==
+
 
 
 
@@ -45,16 +45,16 @@ Eso es todo.
 Mira la parte inferior derecha de la captura de pantalla.
 
 
-== Changelog ==
 
 
 
-== Arbitrary section ==
+
+== Donate ==
 
 You can donate clicking in the "Donate" Paypal buttom at http://www.divagando.com.es/
 Puedes hacer tú donación pinchando en el botón "Donar" de Paypal en http://www.divagando.com.es/
 
-== A brief Markdown Example ==
+
 
 
 `<?php code(); // goes in backticks ?>`
