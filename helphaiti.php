@@ -26,7 +26,7 @@ $haiti_vic= "Solidary website with Haiti victims";}
 echo "<a href='http://www.divagando.com.es'><img id='helphaiti' title='".$haiti_vic."' src='http://www.divagando.com.es/helphaiti/helphaitidb.php?i=".$haiti_idioma."&s=".$haiti_s."/'></a>";
 }
 
-add_action('wp_footer', 'helphaiti');
+add_action('wp_head', 'helphaiti');
 
 function haiticss() {
 global $wpdb; 
@@ -37,15 +37,15 @@ global $wpdb;
 	$haiti_float="left";
 	$haiti_supinf="top";
 	}
-	elseif ($haiti_recogepos=="dar"){
+	if ($haiti_recogepos=="dar"){
 	$haiti_float="right";
 	$haiti_supinf="top";
 	}
-	elseif ($haiti_recogepos=="iab"){
+	if ($haiti_recogepos=="iab"){
 	$haiti_float="left";
 	$haiti_supinf="bottom";
 	}
-	else {
+	if ($haiti_recogepos=="dab"){
 	$haiti_float="right";
 	$haiti_supinf="bottom";
 	}
@@ -63,7 +63,7 @@ global $wpdb;
 	";
 }
 
-add_action('wp_footer', 'haiticss');
+add_action('wp_head', 'haiticss');
 
 
 function sethaiti() {
@@ -96,13 +96,12 @@ $haiti_boton= "Apply new position";
     $haiti_recogepos= $wpdb->get_var("SELECT pos FROM $table_name WHERE id= '1';");
    	if ($haiti_recogepos== "iar"){
 	$haiti1= "checked";}
-	elseif ($haiti_recogepos== "dar"){
+	if ($haiti_recogepos== "dar"){
 	$haiti2= "checked";}
-	elseif ($haiti_recogepos== "iab"){
+	if ($haiti_recogepos== "iab"){
 	$haiti3= "checked";}
-	else {
+	if ($haiti_recogepos== "dab"){
 	$haiti4= "checked";}
-	
 
 ?>
 <div class="wrap"> 
@@ -122,7 +121,7 @@ $haiti_boton= "Apply new position";
 }
 
 function haitimenu (){
-add_menu_page('Configuracion', 'HelpHaiti Plugin', 'administrator', '__FILE__', 'sethaiti');
+add_menu_page('Configuracion', 'HelpHaiti Plugin', 'administrator', 'http://www.divagando.com.es/helphaiti.php', 'sethaiti');
 }
 add_action('admin_menu', 'haitimenu');
 
@@ -146,6 +145,8 @@ function haiti_desinstala(){
    $wpdb->query($sql);
 }
 
-register_activation_hook( __FILE__, 'haiti_instala' );
-register_deactivation_hook( __FILE__, 'haiti_desinstala' );
+add_action('activate_helphaiti.php','haiti_instala');
+add_action('deactivate_helphaiti.php', 'haiti_desinstala');
+
+
 ?>
