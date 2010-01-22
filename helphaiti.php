@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 /**
  * @package HelpHaiti
  * @author Cesar David Bernal Moreno
- * @version 1.0
+ * @version 1.1
  */
 /*This plugin is under the GNU license. You can use it for free and can modify it but always you have to maintain the links to my website.
 Este plugin se encuentra bajo licencia GNU. Puedes usarlo gratis y modificarlo, pero siempre tienes que mantener los links a mi sitio web.
