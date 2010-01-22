@@ -4,7 +4,7 @@ Donate link: http://www.divagando.com.es/
 Tags: help, haiti, hearthquake, candle, ayuda, terremoto, vela
 Requires at least: 2.0.2
 Tested up to: 2.9.1
-Stable tag: tags/1.1
+Stable tag: trunk
 
 Display a candle image for remember the Haiti earthquake victims.
 Muestra la imagen de una vela en recuerdo de las víctimas del terremoto de Haiti.
