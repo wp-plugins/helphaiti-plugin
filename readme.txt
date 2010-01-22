@@ -4,7 +4,7 @@ Donate link: http://www.divagando.com.es/
 Tags: help, haiti, hearthquake, candle, ayuda, terremoto, vela
 Requires at least: 2.0.2
 Tested up to: 2.9.1
-Stable tag: trunk
+Stable tag: tags/1.1
 
 Display a candle image for remember the Haiti earthquake victims.
 Muestra la imagen de una vela en recuerdo de las víctimas del terremoto de Haiti.
@@ -25,7 +25,10 @@ Eso es todo.
 
 == Upgrade Notice ==
 
-No upgrades
+= 1.1 =
+
+If you have experienced problems with the candle position, please update to 1.1.
+Si has tenido problemas con la posicion de la vela, actualiza al 1.1.
 
 == Installation ==
 ENGLISH
@@ -53,7 +56,21 @@ Mira la parte inferior derecha de la captura de pantalla.
 
 == Changelog ==
 
-First version
+= 1.1 =
+English
+
+* Fixed some problems with activate and deactivate functions.
+* Fixed some problemas with the image position.
+
+Español
+
+* Arreglados algunos problemas con las funciones de activacion y desactivacion.
+* Arreglados algunos problemas con la posicion de la imagen.
+
+
+= 1.0 =
+
+First stable version
 
 
 == Arbitrary section ==
