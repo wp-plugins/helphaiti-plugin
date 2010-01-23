@@ -12,7 +12,7 @@ Plugin Name: HelpHaiti
 Plugin URI: http://www.divagando.com.es/
 Description: You can light a candle in your blog in remember for the Haiti hearthquake victims. Puedes encender una vela en tu blog en recuerdo de las victimas del terremoto de Haiti
 Author: Cesar David Bernal Moreno
-Version: 1.0
+Version: 1.1
 Author URI: http://www.divagando.com.es/
 */
 
